@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  section {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  #bio {
+    background-color: #f8f8f8;
+  }
+  
+  #image {
+    text-align: center;
+  }
+  
+  #image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  #tribute {
+    background-color: #f8f8f8;
+  }
+  
+  footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  }
+  
